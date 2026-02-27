@@ -1,120 +1,116 @@
-<!-- =========================================================
-STEP 1: Add the required HTML5 skeleton
-========================================================= -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="stylesheet" href="a4_stylesheet.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Molly's Studying Tips</title>
+</head>
 
-    <title>Molly's Studying Tips</title>
-  </head>
+<body>
+  <div class="container">
 
-  <body>
-    <header>
-      <h2>Molly's Studying Tips</h2>
-      <nav class="site-nav">
-        <ul>
-          <li><a href="#">Academic Tips</a></li>
-          <li><a href="#">Personal Anecdote</a></li>
-          <li><a href="#">Wellbeing Tips</a></li>
-        </ul>
-      </nav>
-      
+    <header class="site-header">
+      <div class="header-inner">
+        <h2 class="brand">Molly's Studying Tips<span class="dot">.</span></h2>
+        <nav class="site-nav">
+          <a href="#">Academic Tips</a>
+          <a href="#">Personal Anecdote</a>
+          <a href="#">Wellbeing Tips</a>
+
+        </nav>
+      </div>
     </header>
 
     <main>
-        <section>
+      <section class="hero">
+        <div class="hero-content">
           <h1>Tips for Thriving in College</h1>
-          <p>From a second year engineering student at UW-Madison</p>
+          <p class="hero-subhead">From a second year engineering student at UW-Madison</p>
+          <a href="#" class="btn btn-dark">Get Started</a>
+          <a href="#" class="btn btn-outline">Explore more tips</a>
 
-          <a href="#">Get Started</a>
+        </div>
+      </section>
 
-          <img src="images/herosectionimage.jpg" alt="Bookcases in a Library" width="500">
+      <section class="features">
+        <h2 class="section-title">Academic Tips</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <div class="icon">
+              <img src="comments-regular-full.svg" alt="conversation boxes" width="20">
+            </div>
+            <h3>Find a community</h3>
+            <p>Creating relationships with your classmates, TA’s, and professors will make keeping up with your school work more enjoyable.</p>
+          </div>
 
-        </section>
+          <div class="feature">
+            <div class="icon">
+              <img src="calendar-days-regular-full.svg" alt="calendar icon" width="20">
+            </div>
+            <h3>Stay organized</h3>
+            <p>It is easy to get overwhelmed in college and using a planner to keep track of your daily tasks can help you lower your stress.</p>
+          </div>
 
-        <section>
-          <h2>Academic Tips</h2>
+          <div class="feature">
+            <div class="icon">
+              <img src="circle-question-solid-full.svg" alt="question mark" width="20">
+            </div>
+            <h3>Ask for help</h3>
+            <p>Take advantage of your university's help services to better yourself.</p>
+          </div>
+        </div>
+      </section>
 
-          <img src="images/comments-regular-full.svg" alt="conversation boxes" width="20">
-          <h3>Find a community</h3>
-          <p>Creating relationships with your classmates, TA’s, and professors will make keeping up with your school work more enjoyable. You can do this by going to office hours, talking to the people you sit next to in class, and joining more clubs you are interested in.</p>
+      <section class="featured">
+        <h2 class="section-title">Personal Anecdote</h2>
+        <p class="section-lede">In my first semester of college, I struggled to transition to the rigorous academic responsibilities. I was often overwhelmed and it showed in my first midterm grades. I started getting tutoring, asking my professors questions at the end of lectures, and prioritizing my mental health. After finding these strategies, I was able to improve my grades by the end of the semester. I have since then included these practices into my daily schedule to ensure a balanced and successful academic experience.</p>
 
-          <img src="images/calendar-days-regular-full.svg" alt="calendar icon" width="20">
-          <h3>Stay organized</h3>
-          <p>It is easy to get overwhelmed in college and using a planner to keep track of your daily tasks can help you lower your stress. This will help you focus on your top priority tasks.</p>
+        <div class="media">
+          <img src="deskimage.jpg" alt="Library Scene" width="500" height="260" style="object-fit: cover;">
+        </div>
+      </section>
 
-          <img src="images/circle-question-solid-full.svg" alt="question mark" width="20">
-          <h3>Ask for help</h3>
-          <p>Take advantage of your university's help services. Whether it is free tutoring, career services, or health services, use it to better yourself.</p>
+      <section class="secondary-grid">
+        <div class="card">
+          <div class="card-text">
+            <h2>Move your body</h2>
+            <p>The best way to give your brain the refresh it needs after a long day of classes is to move your body.</p>
+          <a href="#" class="btn-outline">Details</a>
+          </div>
+        </div>
 
-        </section>
+        <div class="card">
+          <div class="card-text">
+            <h2>Get your sleep</h2>
+            <p>When you sleep, your brain is processing the information it is given throughout the day. This is why it is so important we give it enough time (7 to 10 hours) to rest every night.</p>
+            <a href="#" class="btn-outline">Details</a>
+          </div>
+        </div>
 
-        <section>
-          <h2>Personal Anecdote</h2>
-          <p> In my first semester of college I struggled to transition to the rigorous academic responsibilities. I was often overwhelmed and it showed in my first midterm grades. I started getting tutoring, asking my professors questions at the end of lectures, and prioritizing my mental health. After finding these strategies, I was able to improve my grades by the end of the semester. I have since then included these practices into my daily schedule to ensure a balanced and successful academic experience.</p>
+        <div class="card">
+          <div class="card-text">
+            <h2>Want to learn more?</h2>
+            <p>Your school wants to help you. Take advantage of the services it offers. To learn more about how to become a successful college student, click the link below.</p>
+            <a href="#" class="btn-outline">Details</a>
+          </div>
+        </div>
 
-          <img src="images/deskimage.jpg" alt="Library Scene" width="500" height="300">
-        </section>
+        </div>
+      </section>
+    </main>
 
-        <section>
-          <h2>Move your body</h2>
-          <p> The best way to give your brain the refresh it needs after a long day of classes is to move your body.</p>
-
-          <h2>Get your sleep</h2>
-          <p> When you sleep, your brain is processing the information it is given throughout the day. This is why it is so important we give it enough time (7 to 10 hours) to rest every night.</p>
-
-          <h2>Want to learn more?</h2>
-          <p>Your school wants to help you. Take advantage of the services it offers. To learn more about how to become a successful college student, click the link below.</p>
-          <a href="#">Explore more tips</a>
-        </section>
-
-      </main>
-
-      <footer>
+    <footer class="site-footer">
+      <div class="footer-inner">
         <p>&copy; 2026 Molly Turk LIS 351 Website</p>
-
         <ul>
           <li><a href="https://engineering.wisc.edu/student-services/undergraduate-learning-center/">Free Tutoring</a></li>
           <li><a href="https://www.uhs.wisc.edu/">University Health Services</a></li>
           <li><a href="https://careers.wisc.edu/">Career Services</a></li>
         </ul>
-      </footer>
+      </div>
+    </footer>
 
-
-  
-
-    <!-- =========================================================
-    STEP 2: Build the “top area” (site name + navigation) using simple HTML
-    ========================================================= -->
-
-
-
-    <!-- =========================================================
-    STEP 3: Hero section + “Get Started button” as a link
-    ========================================================= -->
-
-    
-
-    <!-- =========================================================
-    STEP 4: Features section (3 blocks) + featured content section
-    ========================================================= -->
-
-    
-
-    <!-- =========================================================
-    STEP 5: Two secondary content blocks + CTA section 
-    ========================================================= -->
-
-    
-
-    <!-- =========================================================
-    STEP 6: Footer 
-    ========================================================= -->
-
-
-
-  </body>
+  </div>
+</body>
 </html>
